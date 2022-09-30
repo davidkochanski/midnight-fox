@@ -1,0 +1,21 @@
+{
+  "name": "midnight-fox",
+  "displayName": "Midnight Fox",
+  "description": "Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Fox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Midnight Fox-color-theme.json"
+      }
+    ]
+  }
+}
