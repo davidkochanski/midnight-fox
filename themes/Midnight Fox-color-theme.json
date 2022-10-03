@@ -49,7 +49,8 @@
         "method": "#f24285",
         "function": "#f24285",
         "property": "#9ce0ff",
-        "string": "#50e6a5"
+        "string": "#50e6a5",
+        "selfParameter": {"fontStyle": "italic"}
 
         
 
@@ -70,7 +71,9 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+                "entity.other.attribute-name.id.css",
+                "keyword.other.unit",
 			],
 			"settings": {
                 "foreground": "#9ce0ff"
@@ -110,7 +113,7 @@
         {
             "scope": [
                 "keyword.control",
-                "meta.property-list.css"
+                // "meta.property-list.css"
             ],
             "settings": {
                 "foreground": "#fd5dc8",
@@ -133,6 +136,7 @@
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
+                
 			],
 			"settings": {
                 "foreground": "#eeffff"
@@ -146,7 +150,8 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-
+                //todo
+                "foreground": "#FF7F50"
 			}
 		},
 		{
@@ -205,13 +210,10 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"keyword.other.unit",
 				"keyword.other",
-                "entity.other.attribute-name.id.css"
-
 			],
 			"settings": {
-                "foreground": "#FF7F50"
+                "foreground": "#50e6a5"
 			}
 		},
 
@@ -254,7 +256,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-                "foreground": "#FF5858"
+                "foreground": "#ff5858"
             }
 		},
 		{
