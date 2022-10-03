@@ -12,7 +12,7 @@
         "sideBar.background": "#231e2f",
         "sideBarSectionHeader.background": "#332D41",
 
-        "activityBar.background": "#1d1927",
+        "activityBar.background": "#110e18",
         "activityBar.activeBorder": "#DC143C",
 
         "list.hoverBackground": "#332D41",
@@ -26,19 +26,30 @@
         "breadcrumb.background": "#231e2f",
         "breadcrumb.foreground": "#88809a",
 
-        "statusBar.background": "#332D41",
+        "statusBar.background": "#110e18",
         
-        "titleBar.activeBackground": "#1d1927",
-        "titleBar.inactiveBackground": "#1d1927",
+        "titleBar.activeBackground": "#110e18",
+        "titleBar.inactiveBackground": "#110e18",
 
         "input.background": "#332D41",
         "quickInput.background": "#231e2f",
         "button.background": "#DC143C",
         "dropdown.background": "#332D41",
         "dropdown.listBackground": "#231e2f",
+
         
         
 	},
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "variable": "#9ce0ff",
+        "class": "#ff5858",
+        "module": "#ff5858",
+        "magicFunction": {"foreground": "#ff9735", "fontStyle": "italic"},
+        "method": "#ff9735",
+        "function": "#ff3582",
+
+    },
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -58,7 +69,8 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+                "foreground": "#9ce0ff"
+
 			}
 		},
 		{
@@ -67,7 +79,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+
 			}
 		},
 		{
@@ -77,7 +89,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+
 			}
 		},
 		{
@@ -88,7 +100,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+                "foreground": "#FF7F50"
 			}
 		},
 		{
@@ -108,7 +120,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+
 			}
 		},
 		{
@@ -119,7 +131,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+
 			}
 		},
 		{
@@ -132,7 +144,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+                
 			}
 		},
 		{
@@ -141,7 +153,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+
 			}
 		},
 		{
@@ -151,7 +163,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+
 			}
 		},
 		{
@@ -162,14 +174,21 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+                "foreground": "#16ec8f"
 			}
 		},
+        {
+            "name": "Parameter",
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#ffaa00",
+                "fontStyle": "italic"
+            }
+        },
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
@@ -182,7 +201,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+                "foreground": "#50e6a5"
 			}
 		},
 		{
@@ -198,7 +217,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+                
 			}
 		},
 		{
@@ -207,7 +226,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+                //
+                
 			}
 		},
 		{
@@ -221,8 +241,8 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
-			}
+
+            }
 		},
 		{
 			"name": "Sub-methods",
@@ -232,7 +252,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+
 			}
 		},
 		{
@@ -242,7 +262,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+
 			}
 		},
 		{
@@ -252,7 +272,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+
 			}
 		},
 		{
@@ -262,7 +282,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+
 			}
 		},
 		{
@@ -271,7 +291,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+
 			}
 		},
 		{
@@ -282,7 +302,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+
 			}
 		},
 		{
@@ -659,3 +679,4 @@
 		}
 	]
 }
+
