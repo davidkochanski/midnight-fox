@@ -48,7 +48,8 @@
         "magicFunction": {"foreground": "#ff9735", "fontStyle": "italic"},
         "method": "#ff9735",
         "function": "#ff3582",
-        "number": "#ff0000"
+        "number": "#00ff00",
+        "property": "#9ce0ff",
 
     },
 	"tokenColors": [
@@ -199,7 +200,7 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+
 			],
 			"settings": {
                 "foreground": "#50e6a5"
