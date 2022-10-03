@@ -48,6 +48,7 @@
         "magicFunction": {"foreground": "#ff9735", "fontStyle": "italic"},
         "method": "#ff9735",
         "function": "#ff3582",
+        "number": "#ff0000"
 
     },
 	"tokenColors": [
