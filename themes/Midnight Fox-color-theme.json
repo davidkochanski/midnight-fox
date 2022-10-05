@@ -1,7 +1,4 @@
 {
-    "$vars": {
-        "num": "#ff0000",
-    },
 	"name": "Midnight Fox",
 	"colors": {
 		"editor.background": "#1d1927",
@@ -45,8 +42,8 @@
 
         "notifications.background": "#332D41",
         "editorSuggestWidget.background": "#231e2f",
-        "editorSuggestWidget.border": "#4B425F"
-
+        "editorSuggestWidget.border": "#4B425F",
+        "editor.lineHighlightBorder": "#2e293b"
 
         
         
