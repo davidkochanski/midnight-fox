@@ -31,11 +31,22 @@
         "titleBar.activeBackground": "#110e18",
         "titleBar.inactiveBackground": "#110e18",
 
+
+        "menu.background": "#231e2f",
+        "menu.selectionBackground": "#332D41",
+        "menubar.selectionBackground": "#332D41",
+        "menu.separatorBackground": "#4B425F",
+        
         "input.background": "#332D41",
         "quickInput.background": "#231e2f",
         "button.background": "#DC143C",
         "dropdown.background": "#332D41",
         "dropdown.listBackground": "#231e2f",
+
+        "notifications.background": "#332D41",
+        "editorSuggestWidget.background": "#231e2f",
+        "editorSuggestWidget.border": "#4B425F"
+
 
         
         
