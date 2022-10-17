@@ -2,7 +2,7 @@
   "name": "midnight-fox",
   "displayName": "Midnight Fox",
   "description": "Theme",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -14,13 +14,11 @@
     "name": "David Kochanski",
     "email": "kochanskidavid9@gmail.com",
     "link": "https://github.com/davefoxxo"
-
   },
-  "icon":  "icon/midnight-fox.png",
+  "icon": "icon/midnight-fox.png",
   "repository": {
     "url": "https://github.com/davefoxxo/midnight-fox",
     "type": "git"
-
   },
   "contributes": {
     "themes": [
