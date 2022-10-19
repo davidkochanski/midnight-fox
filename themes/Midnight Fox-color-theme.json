@@ -58,8 +58,8 @@
         "function": "#f24285",
         "property": "#9ce0ff",
         "string": "#50e6a5",
-        "selfParameter": {"fontStyle": "italic"}
-
+        "selfParameter": {"fontStyle": "italic"},
+        "*.deprecated": {"foreground": "#ff0000", "fontStyle": "strikethrough"}
         
 
     },
@@ -106,10 +106,12 @@
 			"name": "Invalid",
 			"scope": [
 				"invalid",
-				"invalid.illegal"
+				"invalid.illegal",
+        
 			],
 			"settings": {
-                "fontStyle": "strikethrough"
+                "foreground": "#ff0000",
+                "fontStyle": "underline"
 			}
 		},
 		{
