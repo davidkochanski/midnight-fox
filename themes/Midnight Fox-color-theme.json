@@ -43,7 +43,10 @@
         "notifications.background": "#332D41",
         "editorSuggestWidget.background": "#231e2f",
         "editorSuggestWidget.border": "#4B425F",
-        "editor.lineHighlightBorder": "#2e293b"
+        "editor.lineHighlightBorder": "#2e293b",
+
+        "editorWidget.background": "#231e2f",
+        "editorWidget.border": "#4B425F",
 
         
         

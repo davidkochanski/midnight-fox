@@ -13,3 +13,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Updated "invalid / illegal" tag to come up as red, and underlined (previously was strikethrough).
 - Updated "depreciated" sematic tag to also come up as red.
 - Updated "self parameter" to be italic.
+
+## [1.3.2] - 2022-24-10
+
+### Changes
+
+- Fixed Editor Widgets (Like the CTRL + F search menu) not having correct colours
